@@ -7,7 +7,7 @@ effects of COVID-19 to listings, availability and pricing on airbnb.com.
 
 ## Quick start
 ### Requirements
-* Python 3.x
+* Python >=3.5
 
 ### Packages
 `pip install numpy pandas seaborn sklearn matplot`
