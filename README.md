@@ -1,9 +1,14 @@
-# AirBNB COVID-19 analysis
+![Airbnb / COVID-19](/airbnbcovid19_small.png)
+# An Airbnb / COVID-19 analysis
 
 ## Motivation
 
 This project is giving some insight how COVID-19 impacted Airbnb in **Seattle**. It analyses data from January 2019 to June 2020 and highlights some interesting
 effects of COVID-19 to listings, availability and pricing on airbnb.com.
+
+## Warning
+
+I implemented this project as part of the Udacity nanodegree in Datascience and should be considered preliminary . I'm still learning!
 
 ## Quick start
 ### Requirements
@@ -20,7 +25,6 @@ effects of COVID-19 to listings, availability and pricing on airbnb.com.
 Open *airbnbcovid.ipynb* in your favorite Jupyter notebook application (Jupyter notebook, Visual Studio Code, Spyder, etc.). At least 8 GB of RAM is needed to run this notebook.
 
 ## Results
-Questions
 - What was the impact of Covid-19 to Airbnb bookings in Seattle?
     June 2019 vs. June 2020
     - Drop in listings: ~33%
@@ -41,17 +45,17 @@ Questions
 - Is a COVID-19 deep cleaning offering helpful for landlords to get a better utilization?
 
     March 2020 - June 2020
-    - Change in mean availability without COVID-19 deep cleaning: -0.205017
-    - Change in mean availability with COVID-19 deep cleaning: -0.203608
+    - Drop in mean availability without COVID-19 deep cleaning: ~20.5%
+    - Drop in mean availability with COVID-19 deep cleaning: ~20.4%
 
-    **>> The offering of COVID-19 deep cleaning is increasing, but the utilization is changing the same as with the listings without deep cleaning.**
+    **>> The utilization is increasing the same, no matter if a COVID-19 deep cleaning is offered or not.**
 
 ## Files
 File | Description
 ------------ | -------------
 *README.md* | this README
 *airbnbcovid.ipynb* | Jupyter notebook to analyse the airbnb data
-*data/20xxxxxx/listings.csv.gz*<br/>*data/20xxxxxx/calendar.csv.gz* | airbnb listings / calendars for Seattle scraped on a specific date (source: http://insideairbnb.com/get-the-data.html)
+*data/20xxxxxx/listings.csv.gz*<br/>*data/20xxxxxx/calendar.csv.gz*<br/>... | Airbnb listings / calendars for Seattle scraped on a specific date (source: http://insideairbnb.com/get-the-data.html). These files are automatically downloaded on first run.
 
 ## License
 The code is licensed under the [GNU General Public License v3.0](https://github.com/ccbur/airbnbcovid19/LICENSE).
