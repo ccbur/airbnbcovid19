@@ -25,7 +25,7 @@ I implemented this project as part of the Udacity nanodegree in Datascience and 
 Open *airbnbcovid.ipynb* in your favorite Jupyter notebook application (Jupyter notebook, Visual Studio Code, Spyder, etc.). At least 8 GB of RAM is needed to run this notebook.
 
 ## Results
-- What was the impact of Covid-19 to Airbnb bookings in Seattle?
+- What was the impact of Covid-19 to Airbnb?
     June 2019 vs. June 2020
     - Drop in listings: ~33%
     - Drop in official pricing: ~7%
@@ -42,7 +42,7 @@ Open *airbnbcovid.ipynb* in your favorite Jupyter notebook application (Jupyter 
 
     **>> COVID-19 deep cleaning is related to bigger listings with a bad utilization, but no correlation with pricing found**
 
-- Is a COVID-19 deep cleaning offering helpful for landlords to get a better utilization?
+- Is a COVID-19 deep cleaning offering helpful for hosts to get a better utilization?
 
     March 2020 - June 2020
     - Drop in mean availability without COVID-19 deep cleaning: ~20.5%
@@ -56,9 +56,10 @@ File | Description
 *README.md* | this README
 *airbnbcovid.ipynb* | Jupyter notebook to analyse the airbnb data
 *data/20xxxxxx/listings.csv.gz*<br/>*data/20xxxxxx/calendar.csv.gz*<br/>... | Airbnb listings / calendars for Seattle scraped on a specific date (source: http://insideairbnb.com/get-the-data.html). These files are automatically downloaded on first run.
+*gen/xxx.png* | Generated images
 
 ## License
 The code is licensed under the [GNU General Public License v3.0](https://github.com/ccbur/airbnbcovid19/LICENSE).
 
 ## Acknowledgements
-Thanks to Airbnb for the data.
+Thanks to Insideairbnb.com for the scraped data from airbnb.com.
